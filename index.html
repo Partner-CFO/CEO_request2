@@ -22,63 +22,64 @@
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;800;900&display=swap');
         * { font-family: 'Noto Sans KR', sans-serif; }
         html { scroll-behavior: smooth; }
+        body { font-size: 16px; line-height: 1.75; color: #1f2937; }
         .fade-in { opacity: 0; transform: translateY(20px); transition: all 0.6s ease; }
         .fade-in.visible { opacity: 1; transform: translateY(0); }
-        .step-badge { width: 36px; height: 36px; background: #f97316; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 14px; flex-shrink: 0; }
+        .step-badge { width: 40px; height: 40px; background: #f97316; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 15px; flex-shrink: 0; }
     </style>
 </head>
-<body class="bg-white text-gray-900">
+<body class="bg-white">
 
     <!-- 상단 고정 CTA 배너 -->
-    <div class="fixed top-0 left-0 right-0 z-50 bg-orange-500 text-white text-center py-2.5 px-4 text-sm font-medium shadow-md">
+    <div class="fixed top-0 left-0 right-0 z-50 bg-orange-500 text-white text-center py-3 px-4 text-base font-medium shadow-md">
         <a href="https://walla.my/survey/L1S3Gp5BgG0pid6xN538" target="_blank" class="hover:underline">무료 재무진단 신청 → 착수금 0원 | 1영업일 내 연락</a>
     </div>
 
-    <!-- Hero Section: 후킹 헤드카피 -->
-    <section class="pt-20 pb-10 bg-white">
+    <!-- Hero Section -->
+    <section class="pt-24 pb-14 bg-white">
         <div class="max-w-3xl mx-auto px-6 text-center">
-            <p class="text-orange-600 font-semibold text-sm mb-5 tracking-wide">고소득 개인사업자 · 성실신고 대상자 대표님을 위한 재무진단</p>
-            <h1 class="text-2xl md:text-4xl lg:text-[2.7rem] font-bold text-gray-900 leading-tight mb-5">
+            <p class="text-orange-600 font-semibold text-base mb-6 tracking-wide">고소득 개인사업자 · 성실신고 대상자 대표님을 위한 재무진단</p>
+            <h1 class="text-3xl md:text-[2.8rem] lg:text-5xl font-extrabold text-gray-900 leading-[1.4] md:leading-[1.45] mb-7">
                 3억 벌었는데,<br>손에 남는 건 절반도 안 됩니다.
             </h1>
-            <p class="text-base md:text-lg text-gray-700 leading-relaxed mb-3">
+            <p class="text-lg md:text-xl text-gray-700 leading-[1.8] mb-4">
                 종합소득세, 건강보험료, 중간예납...<br>
                 <strong class="text-orange-600">같은 매출인데 법인 대표보다 수천만 원을 더 내고 있다면</strong><br>
                 그건 대표님 잘못이 아닙니다. <strong>구조의 문제</strong>입니다.
             </p>
-            <p class="text-sm text-gray-500 mb-8">
+            <p class="text-base text-gray-500 mb-10">
                 지금 이 순간에도, 구조를 바꾸지 않으면 매년 반복됩니다.
             </p>
 
             <!-- 지표 배너 -->
-            <div class="grid grid-cols-3 gap-3 mb-8 max-w-lg mx-auto">
-                <div class="bg-gray-50 border border-gray-200 rounded-xl p-3 text-center">
-                    <p class="text-xl md:text-2xl font-bold text-orange-600">49.5%</p>
-                    <p class="text-gray-500 text-[10px] mt-1">개인사업자<br>최고세율</p>
+            <div class="grid grid-cols-3 gap-4 mb-10 max-w-xl mx-auto">
+                <div class="bg-gray-50 border border-gray-200 rounded-xl p-4 text-center">
+                    <p class="text-2xl md:text-3xl font-bold text-orange-600">49.5%</p>
+                    <p class="text-gray-500 text-xs mt-1.5">개인사업자<br>최고세율</p>
                 </div>
-                <div class="bg-gray-50 border border-gray-200 rounded-xl p-3 text-center">
-                    <p class="text-xl md:text-2xl font-bold text-orange-600">2,000만+</p>
-                    <p class="text-gray-500 text-[10px] mt-1">연평균<br>절세 효과</p>
+                <div class="bg-gray-50 border border-gray-200 rounded-xl p-4 text-center">
+                    <p class="text-2xl md:text-3xl font-bold text-orange-600">2,000만+</p>
+                    <p class="text-gray-500 text-xs mt-1.5">연평균<br>절세 효과</p>
                 </div>
-                <div class="bg-gray-50 border border-gray-200 rounded-xl p-3 text-center">
-                    <p class="text-xl md:text-2xl font-bold text-orange-600">착수금 0원</p>
-                    <p class="text-gray-500 text-[10px] mt-1">진단 먼저<br>결정은 나중에</p>
+                <div class="bg-gray-50 border border-gray-200 rounded-xl p-4 text-center">
+                    <p class="text-2xl md:text-3xl font-bold text-orange-600">착수금 0원</p>
+                    <p class="text-gray-500 text-xs mt-1.5">진단 먼저<br>결정은 나중에</p>
                 </div>
             </div>
 
             <!-- CTA -->
-            <a href="https://walla.my/survey/L1S3Gp5BgG0pid6xN538" target="_blank" class="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-10 py-4 rounded-full text-lg transition-all shadow-lg hover:shadow-xl mb-3">
+            <a href="https://walla.my/survey/L1S3Gp5BgG0pid6xN538" target="_blank" class="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-10 py-4 rounded-full text-lg transition-all shadow-lg hover:shadow-xl mb-4">
                 무료 재무진단 신청하기 →
             </a>
-            <p class="text-gray-400 text-xs">* 착수금 없이 먼저 진단 → 절감 금액 확인 후 진행 여부 결정</p>
+            <p class="text-gray-400 text-sm">* 착수금 없이 먼저 진단 → 절감 금액 확인 후 진행 여부 결정</p>
         </div>
     </section>
 
     <!-- 유튜브 영상 안내 -->
-    <section class="py-10 bg-orange-50 border-y border-orange-100">
+    <section class="py-12 bg-orange-50 border-y border-orange-100">
         <div class="max-w-3xl mx-auto px-6 text-center">
-            <p class="text-gray-800 font-semibold text-base md:text-lg mb-6 leading-relaxed">
-                아래 영상을 보신 적이 없다면 진단을 시작하기 전에 반드시 시청하여 주시기 바랍니다.<br>
+            <p class="text-gray-800 font-semibold text-lg md:text-xl mb-7 leading-[1.7]">
+                아래 영상을 보신 적이 없다면<br>진단을 시작하기 전에 반드시 시청하여 주시기 바랍니다.<br>
                 <span class="text-orange-700">대표님의 고민 시간을 획기적으로 줄여드릴 겁니다.</span>
             </p>
             <div class="relative w-full max-w-2xl mx-auto" style="padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
@@ -95,19 +96,19 @@
         </div>
     </section>
 
-    <!-- STEP 1: 대표의 문제 인식 (공감 유도) -->
-    <section id="step1" class="py-14 bg-white">
+    <!-- STEP 1: 대표의 문제 인식 -->
+    <section id="step1" class="py-16 bg-white">
         <div class="max-w-3xl mx-auto px-6">
-            <div class="flex items-center gap-3 mb-6 fade-in">
-                <span class="step-badge text-lg" style="width:44px;height:44px;">1</span>
+            <div class="flex items-center gap-3 mb-8 fade-in">
+                <span class="step-badge" style="width:48px;height:48px;font-size:17px;">1</span>
                 <div>
-                    <p class="text-orange-600 font-bold text-xs">STEP 1</p>
-                    <h2 class="text-lg md:text-xl font-bold text-gray-900">대표님, 이런 경험 있으시죠?</h2>
+                    <p class="text-orange-600 font-bold text-sm">STEP 1</p>
+                    <h2 class="text-xl md:text-2xl font-bold text-gray-900 leading-snug">대표님, 이런 경험 있으시죠?</h2>
                 </div>
             </div>
 
-            <div class="bg-gray-50 border border-gray-200 rounded-2xl p-5 mb-8 fade-in">
-                <p class="text-gray-800 text-sm md:text-base font-medium leading-relaxed text-center">
+            <div class="bg-gray-50 border border-gray-200 rounded-2xl p-6 mb-10 fade-in">
+                <p class="text-gray-800 text-base md:text-lg font-medium leading-[1.8] text-center">
                     "열심히 일해서 벌었는데, 왜 내 통장엔 남는 게 없지?"<br>
                     이 질문의 답은 세무사 문제가 아닙니다.<br>
                     <strong class="text-orange-600">개인사업자라는 구조 자체가 고소득자에게 불리하게 설계되어 있습니다.</strong>
@@ -115,74 +116,74 @@
             </div>
 
             <!-- 문제점들 -->
-            <div class="space-y-6">
+            <div class="space-y-8">
                 <div class="fade-in">
-                    <h3 class="text-base font-bold text-gray-900 mb-2 flex items-center gap-2">
-                        <span class="text-orange-500 text-lg">&#10148;</span> 내 월급은 비용이 안 됩니다
+                    <h3 class="text-lg md:text-xl font-bold text-gray-900 mb-3 flex items-center gap-2">
+                        <span class="text-orange-500 text-xl">&#10148;</span> 내 월급은 비용이 안 됩니다
                     </h3>
-                    <p class="text-sm text-gray-600 leading-relaxed mb-3">직원 급여는 비용인데, 대표인 내 생활비는 비용 처리가 안 됩니다. 순이익 3억 중 1억을 생활비로 써도, 세금은 3억 전체에 부과됩니다. 법인 대표는 자기 급여를 법인 비용으로 처리해서 과세 기준 자체가 줄어듭니다.</p>
-                    <div class="grid grid-cols-2 gap-2 text-xs">
-                        <div class="bg-red-50 border border-red-100 rounded-lg p-3">
-                            <p class="font-bold text-red-700 mb-1.5">개인사업자</p>
-                            <p class="text-gray-700">순이익 3억 → <strong>과세 3억</strong><br>세율 38~45%, 최고 49.5%<br><span class="text-red-600">대표 급여 비용처리 불가</span></p>
+                    <p class="text-base text-gray-600 leading-[1.8] mb-4">직원 급여는 비용인데, 대표인 내 생활비는 비용 처리가 안 됩니다. 순이익 3억 중 1억을 생활비로 써도, 세금은 3억 전체에 부과됩니다. 법인 대표는 자기 급여를 법인 비용으로 처리해서 과세 기준 자체가 줄어듭니다.</p>
+                    <div class="grid grid-cols-2 gap-3">
+                        <div class="bg-red-50 border border-red-100 rounded-xl p-4">
+                            <p class="font-bold text-red-700 text-sm mb-2">개인사업자</p>
+                            <p class="text-sm text-gray-700 leading-relaxed">순이익 3억 → <strong>과세 3억</strong><br>세율 38~45%, 최고 49.5%<br><span class="text-red-600 font-medium">대표 급여 비용처리 불가</span></p>
                         </div>
-                        <div class="bg-blue-50 border border-blue-100 rounded-lg p-3">
-                            <p class="font-bold text-blue-700 mb-1.5">법인 대표</p>
-                            <p class="text-gray-700">순이익 3억 - 급여 1억 → <strong>과세 2억</strong><br>법인세 9~19%<br><span class="text-blue-600">대표 급여 전액 비용처리</span></p>
+                        <div class="bg-blue-50 border border-blue-100 rounded-xl p-4">
+                            <p class="font-bold text-blue-700 text-sm mb-2">법인 대표</p>
+                            <p class="text-sm text-gray-700 leading-relaxed">순이익 3억 - 급여 1억 → <strong>과세 2억</strong><br>법인세 9~19%<br><span class="text-blue-600 font-medium">대표 급여 전액 비용처리</span></p>
                         </div>
                     </div>
                 </div>
 
                 <div class="fade-in">
-                    <h3 class="text-base font-bold text-gray-900 mb-2 flex items-center gap-2">
-                        <span class="text-orange-500 text-lg">&#10148;</span> 5월이 오면 통장이 텅 빕니다
+                    <h3 class="text-lg md:text-xl font-bold text-gray-900 mb-3 flex items-center gap-2">
+                        <span class="text-orange-500 text-xl">&#10148;</span> 5월이 오면 통장이 텅 빕니다
                     </h3>
-                    <p class="text-sm text-gray-600 leading-relaxed mb-2">전년도 이익 전체에 대해 5월에 종합소득세를 한 번에 납부해야 합니다. 11월 중간예납까지 합치면 연간 현금의 35% 이상이 세금으로 나갑니다. 법인은 분기 예납, 배당 시점 조절, 이익잉여금 유보 등으로 시점을 조절하지만, 개인사업자는 이 수단이 없습니다.</p>
-                    <div class="bg-amber-50 border border-amber-200 rounded-lg p-3 text-xs">
-                        <p class="text-amber-900"><strong>순이익 3억 기준</strong> → 종합소득세+지방세 약 <strong>1억 560만 원</strong>이 한 번에 빠져나갑니다.</p>
+                    <p class="text-base text-gray-600 leading-[1.8] mb-3">전년도 이익 전체에 대해 5월에 종합소득세를 한 번에 납부해야 합니다. 11월 중간예납까지 합치면 연간 현금의 35% 이상이 세금으로 나갑니다. 법인은 시점 조절이 가능하지만 개인사업자는 불가합니다.</p>
+                    <div class="bg-amber-50 border border-amber-200 rounded-xl p-4">
+                        <p class="text-amber-900 text-sm"><strong>순이익 3억 기준</strong> → 종합소득세+지방세 약 <strong>1억 560만 원</strong>이 한 번에 빠져나갑니다.</p>
                     </div>
                 </div>
 
                 <div class="fade-in">
-                    <h3 class="text-base font-bold text-gray-900 mb-2 flex items-center gap-2">
-                        <span class="text-orange-500 text-lg">&#10148;</span> 세금 냈더니 건강보험료 폭탄이 날아옵니다
+                    <h3 class="text-lg md:text-xl font-bold text-gray-900 mb-3 flex items-center gap-2">
+                        <span class="text-orange-500 text-xl">&#10148;</span> 세금 냈더니 건강보험료 폭탄이 날아옵니다
                     </h3>
-                    <p class="text-sm text-gray-600 leading-relaxed mb-2">개인사업자는 지역가입자로 소득+재산+자동차 기준 건강보험료가 부과됩니다. 직장가입자는 회사가 절반을 부담하지만, 개인사업자는 <strong>전액 본인 부담</strong>입니다.</p>
-                    <div class="bg-gray-50 border border-gray-200 rounded-lg p-3 text-xs">
-                        <table class="w-full">
-                            <tr class="border-b border-gray-200"><td class="py-1.5 text-gray-500">사업소득 5천만</td><td class="py-1.5 text-right font-medium">월 30~40만 원</td></tr>
-                            <tr class="border-b border-gray-200"><td class="py-1.5 text-gray-500">사업소득 1억</td><td class="py-1.5 text-right font-medium">월 60~80만 원</td></tr>
-                            <tr><td class="py-1.5 text-gray-500">사업소득 2억</td><td class="py-1.5 text-right font-medium text-red-600">월 120~150만 원+</td></tr>
+                    <p class="text-base text-gray-600 leading-[1.8] mb-3">개인사업자는 지역가입자로 소득+재산+자동차 기준으로 건강보험료가 부과됩니다. 직장가입자는 회사가 절반 부담하지만, 개인사업자는 <strong>전액 본인 부담</strong>입니다.</p>
+                    <div class="bg-gray-50 border border-gray-200 rounded-xl p-4">
+                        <table class="w-full text-sm">
+                            <tr class="border-b border-gray-200"><td class="py-2 text-gray-500">사업소득 5천만</td><td class="py-2 text-right font-semibold">월 30~40만 원</td></tr>
+                            <tr class="border-b border-gray-200"><td class="py-2 text-gray-500">사업소득 1억</td><td class="py-2 text-right font-semibold">월 60~80만 원</td></tr>
+                            <tr><td class="py-2 text-gray-500">사업소득 2억</td><td class="py-2 text-right font-semibold text-red-600">월 120~150만 원+</td></tr>
                         </table>
-                        <p class="text-gray-500 mt-2">같은 소득의 법인 대표는 급여에만 보험료 부과 + 법인이 절반 부담</p>
+                        <p class="text-gray-500 text-sm mt-3">* 같은 소득의 법인 대표는 급여에만 보험료 부과 + 법인이 절반 부담</p>
                     </div>
                 </div>
 
                 <div class="fade-in">
-                    <h3 class="text-base font-bold text-gray-900 mb-2 flex items-center gap-2">
-                        <span class="text-orange-500 text-lg">&#10148;</span> 성실신고 대상이 되면 감시와 비용이 더 늘어납니다
+                    <h3 class="text-lg md:text-xl font-bold text-gray-900 mb-3 flex items-center gap-2">
+                        <span class="text-orange-500 text-xl">&#10148;</span> 성실신고 대상이 되면 감시와 비용이 늘어납니다
                     </h3>
-                    <p class="text-sm text-gray-600 leading-relaxed mb-2">매출 5~15억 이상이면 세무사 확인을 의무적으로 받아야 하고(비용 200~500만 원), 세무조사 대상에 쉽게 노출됩니다. 법인으로 전환하면 이 제도에서 즉시 제외됩니다.</p>
+                    <p class="text-base text-gray-600 leading-[1.8]">매출 5~15억 이상이면 세무사 확인 의무(비용 200~500만 원), 세무조사 대상 노출 증가. 법인으로 전환하면 이 제도에서 즉시 제외됩니다.</p>
                 </div>
 
                 <div class="fade-in">
-                    <h3 class="text-base font-bold text-gray-900 mb-2 flex items-center gap-2">
-                        <span class="text-orange-500 text-lg">&#10148;</span> 30년 일해도 퇴직금이 없습니다
+                    <h3 class="text-lg md:text-xl font-bold text-gray-900 mb-3 flex items-center gap-2">
+                        <span class="text-orange-500 text-xl">&#10148;</span> 30년 일해도 퇴직금이 없습니다
                     </h3>
-                    <p class="text-sm text-gray-600 leading-relaxed mb-2">직원 퇴직금은 다 챙겨줬지만, 정작 대표 본인은 사업을 접어도 퇴직금 0원입니다. 법인 대표는 임원 퇴직금 규정으로 수억 원을 법인 비용 처리하며 낮은 세율(퇴직소득)로 수령합니다. 노란우산공제 한도는 고소득자일수록 적어서(연 300만 원) 실질 대안이 되지 못합니다.</p>
+                    <p class="text-base text-gray-600 leading-[1.8]">직원 퇴직금은 다 챙겨줬는데, 대표 본인은 폐업해도 퇴직금 0원. 법인 대표는 임원 퇴직금으로 수억 원을 법인 비용 처리하며 낮은 세율로 수령합니다.</p>
                 </div>
 
                 <div class="fade-in">
-                    <h3 class="text-base font-bold text-gray-900 mb-2 flex items-center gap-2">
-                        <span class="text-orange-500 text-lg">&#10148;</span> 자산을 팔 때 세금이 두 배입니다
+                    <h3 class="text-lg md:text-xl font-bold text-gray-900 mb-3 flex items-center gap-2">
+                        <span class="text-orange-500 text-xl">&#10148;</span> 자산을 팔 때 세금이 두 배입니다
                     </h3>
-                    <p class="text-sm text-gray-600 leading-relaxed">사업용 건물을 개인 명의로 양도하면 양도소득세 최고 49.5%. 법인 명의라면 법인세 최고 26.4%입니다. 양도차익 5억 기준, 세금 차이만 <strong>1억 원 이상</strong>입니다.</p>
+                    <p class="text-base text-gray-600 leading-[1.8]">사업용 건물 양도 시 개인 명의: 최고 49.5%. 법인 명의: 최고 26.4%. 양도차익 5억 기준 세금 차이만 <strong>1억 원 이상</strong>입니다.</p>
                 </div>
             </div>
 
             <!-- 핵심 메시지 -->
-            <div class="bg-orange-500 rounded-2xl p-5 text-center mt-8 fade-in">
-                <p class="text-white text-sm font-medium leading-relaxed">
+            <div class="bg-orange-500 rounded-2xl p-6 md:p-8 text-center mt-10 fade-in">
+                <p class="text-white text-base md:text-lg font-semibold leading-[1.8]">
                     이 모든 문제는 <strong>사업 능력과 무관</strong>합니다.<br>
                     개인사업자라는 <strong>구조 자체</strong>가 만든 불이익입니다.<br>
                     <strong>구조를 바꾸면, 같은 매출로도 수천만 원이 더 남습니다.</strong>
@@ -192,94 +193,94 @@
     </section>
 
     <!-- STEP 2: 공감 사례 -->
-    <section id="step2" class="py-14 bg-gray-50 border-y border-gray-100">
+    <section id="step2" class="py-16 bg-gray-50 border-y border-gray-100">
         <div class="max-w-3xl mx-auto px-6">
-            <div class="flex items-center gap-3 mb-6 fade-in">
-                <span class="step-badge text-lg" style="width:44px;height:44px;">2</span>
+            <div class="flex items-center gap-3 mb-8 fade-in">
+                <span class="step-badge" style="width:48px;height:48px;font-size:17px;">2</span>
                 <div>
-                    <p class="text-orange-600 font-bold text-xs">STEP 2</p>
-                    <h2 class="text-lg md:text-xl font-bold text-gray-900">나와 똑같은 상황의 대표님들</h2>
+                    <p class="text-orange-600 font-bold text-sm">STEP 2</p>
+                    <h2 class="text-xl md:text-2xl font-bold text-gray-900 leading-snug">나와 똑같은 상황의 대표님들</h2>
                 </div>
             </div>
-            <p class="text-gray-500 text-xs mb-6 fade-in">실제 컨설팅 경험 기반 대표 사례입니다. (익명 처리)</p>
+            <p class="text-gray-500 text-sm mb-8 fade-in">실제 컨설팅 경험 기반 대표 사례입니다. (익명 처리)</p>
 
             <!-- 사례 1 -->
-            <div class="bg-white border border-gray-200 rounded-2xl p-5 mb-4 fade-in">
-                <div class="flex items-center gap-2 mb-3">
-                    <span class="bg-orange-100 text-orange-700 text-xs font-bold px-2.5 py-1 rounded-full">외식업</span>
-                    <span class="text-gray-400 text-xs">음식점 3개 점포 · 매출 12억</span>
+            <div class="bg-white border border-gray-200 rounded-2xl p-6 mb-5 fade-in">
+                <div class="flex items-center gap-2 mb-4">
+                    <span class="bg-orange-100 text-orange-700 text-sm font-bold px-3 py-1 rounded-full">외식업</span>
+                    <span class="text-gray-400 text-sm">음식점 3개 점포 · 매출 12억</span>
                 </div>
-                <blockquote class="text-gray-700 text-sm leading-relaxed mb-3 italic border-l-4 border-orange-200 pl-3">
-                    "매출은 12억인데, 5월에 세금 고지서 보면 손발이 떨려요. 직원 급여, 임대료, 세금 내면 남는 게 없어요. 근데 법인 하는 친구는 같은 매출에 세금이 절반도 안 된대요."
+                <blockquote class="text-gray-700 text-base leading-[1.8] mb-4 italic border-l-4 border-orange-200 pl-4">
+                    "매출은 12억인데, 5월에 세금 고지서 보면 손발이 떨려요. 직원 급여, 임대료, 세금 내면 남는 게 없어요. 법인 하는 친구는 같은 매출에 세금이 절반도 안 된대요."
                 </blockquote>
-                <ul class="text-xs text-gray-600 space-y-1 mb-3">
+                <ul class="text-sm text-gray-600 space-y-1.5 mb-4 leading-relaxed">
                     <li>• 3개 점포 소득 전체가 대표 1인에게 귀속</li>
                     <li>• 가족이 일하지만 급여 처리 구조 없음 → 소득 분산 불가</li>
                     <li>• 성실신고 확인비용만 연 200만 원 추가 지출</li>
                 </ul>
-                <p class="text-red-700 font-bold text-sm bg-red-50 border border-red-100 rounded-lg px-3 py-2 inline-block">놓치고 있는 금액: 약 2,800만원/년</p>
+                <p class="text-red-700 font-bold text-base bg-red-50 border border-red-100 rounded-lg px-4 py-2.5 inline-block">놓치고 있는 금액: 약 2,800만원/년</p>
             </div>
 
             <!-- 사례 2 -->
-            <div class="bg-white border border-gray-200 rounded-2xl p-5 mb-4 fade-in">
-                <div class="flex items-center gap-2 mb-3">
-                    <span class="bg-violet-100 text-violet-700 text-xs font-bold px-2.5 py-1 rounded-full">IT</span>
-                    <span class="text-gray-400 text-xs">1인 IT 용역 · 매출 3.5억</span>
+            <div class="bg-white border border-gray-200 rounded-2xl p-6 mb-5 fade-in">
+                <div class="flex items-center gap-2 mb-4">
+                    <span class="bg-violet-100 text-violet-700 text-sm font-bold px-3 py-1 rounded-full">IT</span>
+                    <span class="text-gray-400 text-sm">1인 IT 용역 · 매출 3.5억</span>
                 </div>
-                <blockquote class="text-gray-700 text-sm leading-relaxed mb-3 italic border-l-4 border-violet-200 pl-3">
+                <blockquote class="text-gray-700 text-base leading-[1.8] mb-4 italic border-l-4 border-violet-200 pl-4">
                     "혼자 일하니까 경비도 적고, 번 거 거의 다 세금이에요. 건보료도 월 30만 원 넘고요. 뭔가 방법이 있을 것 같은데, 누구한테 물어봐야 할지 모르겠어요."
                 </blockquote>
-                <ul class="text-xs text-gray-600 space-y-1 mb-3">
+                <ul class="text-sm text-gray-600 space-y-1.5 mb-4 leading-relaxed">
                     <li>• 경비 항목 적어 실효세율 30% 초과</li>
                     <li>• 노란우산공제, 연금저축, IRP 등 절세 수단 미활용</li>
                     <li>• 벤처인증, 정책자금 등 저금리 조달 기회 방치</li>
                 </ul>
-                <p class="text-red-700 font-bold text-sm bg-red-50 border border-red-100 rounded-lg px-3 py-2 inline-block">놓치고 있는 금액: 약 1,000~1,400만원/년</p>
+                <p class="text-red-700 font-bold text-base bg-red-50 border border-red-100 rounded-lg px-4 py-2.5 inline-block">놓치고 있는 금액: 약 1,000~1,400만원/년</p>
             </div>
 
             <!-- 사례 3 -->
-            <div class="bg-white border border-gray-200 rounded-2xl p-5 fade-in">
-                <div class="flex items-center gap-2 mb-3">
-                    <span class="bg-yellow-100 text-yellow-700 text-xs font-bold px-2.5 py-1 rounded-full">건설업</span>
-                    <span class="text-gray-400 text-xs">인테리어 · 매출 10억</span>
+            <div class="bg-white border border-gray-200 rounded-2xl p-6 fade-in">
+                <div class="flex items-center gap-2 mb-4">
+                    <span class="bg-yellow-100 text-yellow-700 text-sm font-bold px-3 py-1 rounded-full">건설업</span>
+                    <span class="text-gray-400 text-sm">인테리어 · 매출 10억</span>
                 </div>
-                <blockquote class="text-gray-700 text-sm leading-relaxed mb-3 italic border-l-4 border-yellow-200 pl-3">
+                <blockquote class="text-gray-700 text-base leading-[1.8] mb-4 italic border-l-4 border-yellow-200 pl-4">
                     "건물 하나 사려는데 개인으로 사야 하나, 법인으로 사야 하나. 나중에 팔 때 세금이 완전히 다르다는데, 제대로 알려주는 사람이 없어요."
                 </blockquote>
-                <ul class="text-xs text-gray-600 space-y-1 mb-3">
+                <ul class="text-sm text-gray-600 space-y-1.5 mb-4 leading-relaxed">
                     <li>• 부동산 취득 전 법인 구조 설계 없이 개인 명의 검토 중</li>
                     <li>• 취득·보유·양도 전 단계 세금 비교 없이 진행 직전</li>
                     <li>• '복잡하다'는 막연한 두려움으로 수천만 원 기회 방치</li>
                 </ul>
-                <p class="text-red-700 font-bold text-sm bg-red-50 border border-red-100 rounded-lg px-3 py-2 inline-block">놓치고 있는 금액: 약 5,000만~1억원 <span class="font-normal text-[10px]">(10년 보유 양도 기준)</span></p>
+                <p class="text-red-700 font-bold text-base bg-red-50 border border-red-100 rounded-lg px-4 py-2.5 inline-block">놓치고 있는 금액: 약 5,000만~1억원 <span class="font-normal text-xs">(10년 보유 양도 기준)</span></p>
             </div>
         </div>
     </section>
 
     <!-- STEP 3: 대안 제시 -->
-    <section id="step3" class="py-14 bg-white">
+    <section id="step3" class="py-16 bg-white">
         <div class="max-w-3xl mx-auto px-6">
-            <div class="flex items-center gap-3 mb-6 fade-in">
-                <span class="step-badge text-lg" style="width:44px;height:44px;">3</span>
+            <div class="flex items-center gap-3 mb-8 fade-in">
+                <span class="step-badge" style="width:48px;height:48px;font-size:17px;">3</span>
                 <div>
-                    <p class="text-orange-600 font-bold text-xs">STEP 3</p>
-                    <h2 class="text-lg md:text-xl font-bold text-gray-900">구조를 바꾸면 세금이 줄어듭니다</h2>
+                    <p class="text-orange-600 font-bold text-sm">STEP 3</p>
+                    <h2 class="text-xl md:text-2xl font-bold text-gray-900 leading-snug">구조를 바꾸면 세금이 줄어듭니다</h2>
                 </div>
             </div>
 
-            <div class="bg-gray-50 border border-gray-200 rounded-2xl p-5 mb-8 text-center fade-in">
-                <p class="text-gray-800 text-sm font-medium leading-relaxed">
+            <div class="bg-gray-50 border border-gray-200 rounded-2xl p-6 mb-10 text-center fade-in">
+                <p class="text-gray-800 text-base md:text-lg font-medium leading-[1.8]">
                     기장 세무사는 <strong>세금을 '신고'</strong>합니다.<br>
                     외부 CFO는 <strong class="text-orange-600">세금을 '줄이는 구조'를 미리 설계</strong>합니다.<br>
-                    <span class="text-gray-500 text-xs">같은 매출이라도 구조가 다르면 결과가 다릅니다.</span>
+                    <span class="text-gray-500">같은 매출이라도 구조가 다르면 결과가 다릅니다.</span>
                 </p>
             </div>
 
             <!-- 비교 -->
-            <div class="grid grid-cols-2 gap-3 mb-8 fade-in">
-                <div class="bg-gray-100 rounded-xl p-4">
-                    <p class="text-gray-400 font-bold text-xs mb-2">기장 세무사</p>
-                    <ul class="space-y-2 text-xs text-gray-500">
+            <div class="grid grid-cols-2 gap-4 mb-10 fade-in">
+                <div class="bg-gray-100 rounded-xl p-5">
+                    <p class="text-gray-400 font-bold text-sm mb-3">기장 세무사</p>
+                    <ul class="space-y-2.5 text-sm text-gray-500 leading-relaxed">
                         <li>• 세금 신고 대행</li>
                         <li>• 과거 실적 정리</li>
                         <li>• 신고 기한 맞추기</li>
@@ -287,9 +288,9 @@
                         <li>• 정책자금 연계 없음</li>
                     </ul>
                 </div>
-                <div class="bg-orange-500 rounded-xl p-4 text-white">
-                    <p class="text-orange-100 font-bold text-xs mb-2">외부 CFO (파트너CFO)</p>
-                    <ul class="space-y-2 text-xs text-orange-50">
+                <div class="bg-orange-500 rounded-xl p-5 text-white">
+                    <p class="text-orange-100 font-bold text-sm mb-3">외부 CFO (파트너CFO)</p>
+                    <ul class="space-y-2.5 text-sm text-orange-50 leading-relaxed">
                         <li>&#10003; 절세 구조 사전 설계</li>
                         <li>&#10003; 미래 재무 전략 수립</li>
                         <li>&#10003; 착수금 0원, 성과 보수</li>
@@ -300,34 +301,34 @@
             </div>
 
             <!-- 솔루션 -->
-            <h3 class="text-sm font-bold text-gray-900 mb-4 fade-in">외부 CFO가 실행하는 핵심 솔루션</h3>
-            <div class="space-y-2.5 fade-in">
-                <div class="bg-white border border-gray-200 rounded-xl p-3.5 flex items-start gap-3">
-                    <span class="step-badge text-xs" style="width:26px;height:26px;font-size:11px;">1</span>
+            <h3 class="text-base md:text-lg font-bold text-gray-900 mb-5 fade-in">외부 CFO가 실행하는 핵심 솔루션</h3>
+            <div class="space-y-3 fade-in">
+                <div class="bg-white border border-gray-200 rounded-xl p-4 flex items-start gap-3">
+                    <span class="step-badge" style="width:30px;height:30px;font-size:13px;">1</span>
                     <div>
-                        <p class="font-bold text-gray-900 text-sm">절세 구조 진단 + 실행 로드맵</p>
-                        <p class="text-xs text-gray-500 mt-0.5">"얼마를 아낄 수 있는가" 먼저 수치화 → 실행 우선순위 결정</p>
+                        <p class="font-bold text-gray-900 text-base">절세 구조 진단 + 실행 로드맵</p>
+                        <p class="text-sm text-gray-500 mt-1">"얼마를 아낄 수 있는가" 먼저 수치화 → 실행 우선순위 결정</p>
                     </div>
                 </div>
-                <div class="bg-white border border-gray-200 rounded-xl p-3.5 flex items-start gap-3">
-                    <span class="step-badge text-xs" style="width:26px;height:26px;font-size:11px;">2</span>
+                <div class="bg-white border border-gray-200 rounded-xl p-4 flex items-start gap-3">
+                    <span class="step-badge" style="width:30px;height:30px;font-size:13px;">2</span>
                     <div>
-                        <p class="font-bold text-gray-900 text-sm">소득 분산 + 4대보험 최적화</p>
-                        <p class="text-xs text-gray-500 mt-0.5">가족 급여 설계, 건보료 구조 조정, 공제 수단 극대화</p>
+                        <p class="font-bold text-gray-900 text-base">소득 분산 + 4대보험 최적화</p>
+                        <p class="text-sm text-gray-500 mt-1">가족 급여 설계, 건보료 구조 조정, 공제 수단 극대화</p>
                     </div>
                 </div>
-                <div class="bg-white border border-gray-200 rounded-xl p-3.5 flex items-start gap-3">
-                    <span class="step-badge text-xs" style="width:26px;height:26px;font-size:11px;">3</span>
+                <div class="bg-white border border-gray-200 rounded-xl p-4 flex items-start gap-3">
+                    <span class="step-badge" style="width:30px;height:30px;font-size:13px;">3</span>
                     <div>
-                        <p class="font-bold text-gray-900 text-sm">정책자금 조달 + 기업 인증</p>
-                        <p class="text-xs text-gray-500 mt-0.5">벤처인증·이노비즈 취득, 중진공·기보·신보 연 1~3% 자금 연계</p>
+                        <p class="font-bold text-gray-900 text-base">정책자금 조달 + 기업 인증</p>
+                        <p class="text-sm text-gray-500 mt-1">벤처인증·이노비즈 취득, 중진공·기보·신보 연 1~3% 자금 연계</p>
                     </div>
                 </div>
-                <div class="bg-white border border-gray-200 rounded-xl p-3.5 flex items-start gap-3">
-                    <span class="step-badge text-xs" style="width:26px;height:26px;font-size:11px;">4</span>
+                <div class="bg-white border border-gray-200 rounded-xl p-4 flex items-start gap-3">
+                    <span class="step-badge" style="width:30px;height:30px;font-size:13px;">4</span>
                     <div>
-                        <p class="font-bold text-gray-900 text-sm">법인 전환 적기 판단 + 사전 준비</p>
-                        <p class="text-xs text-gray-500 mt-0.5">전환 방법별 비용 비교, 가족법인·부동산 취득까지 연결 설계</p>
+                        <p class="font-bold text-gray-900 text-base">법인 전환 적기 판단 + 사전 준비</p>
+                        <p class="text-sm text-gray-500 mt-1">전환 방법별 비용 비교, 가족법인·부동산 취득까지 연결 설계</p>
                     </div>
                 </div>
             </div>
@@ -335,82 +336,96 @@
     </section>
 
     <!-- STEP 4: 성과 사례 -->
-    <section id="step4" class="py-14 bg-gray-50 border-y border-gray-100">
+    <section id="step4" class="py-16 bg-gray-50 border-y border-gray-100">
         <div class="max-w-3xl mx-auto px-6">
-            <div class="flex items-center gap-3 mb-6 fade-in">
-                <span class="step-badge text-lg" style="width:44px;height:44px;">4</span>
+            <div class="flex items-center gap-3 mb-8 fade-in">
+                <span class="step-badge" style="width:48px;height:48px;font-size:17px;">4</span>
                 <div>
-                    <p class="text-orange-600 font-bold text-xs">STEP 4</p>
-                    <h2 class="text-lg md:text-xl font-bold text-gray-900">구조를 바꾼 후, 실제로 달라진 숫자</h2>
+                    <p class="text-orange-600 font-bold text-sm">STEP 4</p>
+                    <h2 class="text-xl md:text-2xl font-bold text-gray-900 leading-snug">구조를 바꾼 후, 실제로 달라진 숫자</h2>
                 </div>
             </div>
 
             <!-- 성과 A -->
-            <div class="bg-white border border-gray-200 rounded-2xl p-5 mb-4 fade-in">
-                <div class="flex items-center gap-2 mb-3">
-                    <span class="bg-orange-100 text-orange-700 text-xs font-bold px-2.5 py-1 rounded-full">외식업</span>
-                    <span class="text-gray-400 text-xs">연매출 12억 · 음식점 2개 점포</span>
+            <div class="bg-white border border-gray-200 rounded-2xl p-6 mb-5 fade-in">
+                <div class="flex items-center gap-2 mb-4">
+                    <span class="bg-orange-100 text-orange-700 text-sm font-bold px-3 py-1 rounded-full">외식업</span>
+                    <span class="text-gray-400 text-sm">연매출 12억 · 음식점 2개 점포</span>
                 </div>
-                <div class="space-y-1.5 mb-3">
-                    <p class="text-sm text-gray-900"><span class="text-green-600 font-bold">&#10003;</span> 종합소득세 절감: <strong class="text-orange-600">연 2,800만원</strong></p>
-                    <p class="text-sm text-gray-900"><span class="text-green-600 font-bold">&#10003;</span> 건강보험료 조정: <strong class="text-orange-600">연 480만원 절감</strong></p>
-                    <p class="text-sm text-gray-900"><span class="text-green-600 font-bold">&#10003;</span> 정책자금 <strong class="text-orange-600">3억 조달</strong> (연 2.4%)</p>
+                <div class="space-y-2 mb-4">
+                    <p class="text-base text-gray-900"><span class="text-green-600 font-bold">&#10003;</span> 종합소득세 절감: <strong class="text-orange-600">연 2,800만원</strong></p>
+                    <p class="text-base text-gray-900"><span class="text-green-600 font-bold">&#10003;</span> 건강보험료 조정: <strong class="text-orange-600">연 480만원 절감</strong></p>
+                    <p class="text-base text-gray-900"><span class="text-green-600 font-bold">&#10003;</span> 정책자금 <strong class="text-orange-600">3억 조달</strong> (연 2.4%)</p>
                 </div>
-                <p class="text-xs text-gray-500">배우자 공동경영자 등록 → 소득 분산 → 세율 구간 하락 → 법인 전환 로드맵 수립 완료</p>
+                <p class="text-sm text-gray-500 leading-relaxed">배우자 공동경영자 등록 → 소득 분산 → 세율 구간 하락 → 법인 전환 로드맵 수립 완료</p>
             </div>
 
             <!-- 성과 B -->
-            <div class="bg-white border border-gray-200 rounded-2xl p-5 mb-4 fade-in">
-                <div class="flex items-center gap-2 mb-3">
-                    <span class="bg-yellow-100 text-yellow-700 text-xs font-bold px-2.5 py-1 rounded-full">건설업</span>
-                    <span class="text-gray-400 text-xs">연매출 9억 · 부동산 취득 계획</span>
+            <div class="bg-white border border-gray-200 rounded-2xl p-6 mb-5 fade-in">
+                <div class="flex items-center gap-2 mb-4">
+                    <span class="bg-yellow-100 text-yellow-700 text-sm font-bold px-3 py-1 rounded-full">건설업</span>
+                    <span class="text-gray-400 text-sm">연매출 9억 · 부동산 취득 계획</span>
                 </div>
-                <div class="space-y-1.5 mb-3">
-                    <p class="text-sm text-gray-900"><span class="text-green-600 font-bold">&#10003;</span> 법인 전환 <strong class="text-orange-600">최적 시점·방식 결정</strong></p>
-                    <p class="text-sm text-gray-900"><span class="text-green-600 font-bold">&#10003;</span> 취득세 중과 <strong class="text-orange-600">회피 구조 설계</strong></p>
-                    <p class="text-sm text-gray-900"><span class="text-green-600 font-bold">&#10003;</span> 전환 후 취득세 <strong class="text-orange-600">1% 절감 확보</strong> (창업감면 활용)</p>
+                <div class="space-y-2 mb-4">
+                    <p class="text-base text-gray-900"><span class="text-green-600 font-bold">&#10003;</span> 법인 전환 <strong class="text-orange-600">최적 시점·방식 결정</strong></p>
+                    <p class="text-base text-gray-900"><span class="text-green-600 font-bold">&#10003;</span> 취득세 중과 <strong class="text-orange-600">회피 구조 설계</strong></p>
+                    <p class="text-base text-gray-900"><span class="text-green-600 font-bold">&#10003;</span> 전환 후 취득세 <strong class="text-orange-600">1% 절감 확보</strong></p>
                 </div>
-                <p class="text-xs text-gray-500">개인사업자 단계 절세 먼저 구축, 1년 후 법인 전환. 과밀억제권역 외 본점 등록으로 취득세 중과(8%) 완전 회피.</p>
+                <p class="text-sm text-gray-500 leading-relaxed">개인사업자 단계 절세 먼저 구축, 1년 후 법인 전환. 과밀억제권역 외 본점 등록으로 취득세 중과 완전 회피.</p>
             </div>
 
             <!-- 성과 C -->
-            <div class="bg-white border border-gray-200 rounded-2xl p-5 fade-in">
-                <div class="flex items-center gap-2 mb-3">
-                    <span class="bg-violet-100 text-violet-700 text-xs font-bold px-2.5 py-1 rounded-full">IT</span>
-                    <span class="text-gray-400 text-xs">연매출 3억 · 1인 IT 사업자</span>
+            <div class="bg-white border border-gray-200 rounded-2xl p-6 fade-in">
+                <div class="flex items-center gap-2 mb-4">
+                    <span class="bg-violet-100 text-violet-700 text-sm font-bold px-3 py-1 rounded-full">IT</span>
+                    <span class="text-gray-400 text-sm">연매출 3억 · 1인 IT 사업자</span>
                 </div>
-                <div class="space-y-1.5 mb-3">
-                    <p class="text-sm text-gray-900"><span class="text-green-600 font-bold">&#10003;</span> 소득세 절감: <strong class="text-orange-600">연 900만원</strong></p>
-                    <p class="text-sm text-gray-900"><span class="text-green-600 font-bold">&#10003;</span> 건보료: <strong class="text-orange-600">월 28만→19만원</strong> 조정</p>
-                    <p class="text-sm text-gray-900"><span class="text-green-600 font-bold">&#10003;</span> 정책자금 <strong class="text-orange-600">1억 조달</strong> (벤처인증, 연 1.9%)</p>
+                <div class="space-y-2 mb-4">
+                    <p class="text-base text-gray-900"><span class="text-green-600 font-bold">&#10003;</span> 소득세 절감: <strong class="text-orange-600">연 900만원</strong></p>
+                    <p class="text-base text-gray-900"><span class="text-green-600 font-bold">&#10003;</span> 건보료: <strong class="text-orange-600">월 28만→19만원</strong> 조정</p>
+                    <p class="text-base text-gray-900"><span class="text-green-600 font-bold">&#10003;</span> 정책자금 <strong class="text-orange-600">1억 조달</strong> (벤처인증, 연 1.9%)</p>
                 </div>
-                <p class="text-xs text-gray-500">연금저축·IRP·노란우산공제 동시 활용, 소프트웨어업 벤처인증 취득 → 중진공 정책자금 확보</p>
+                <p class="text-sm text-gray-500 leading-relaxed">연금저축·IRP·노란우산공제 동시 활용, 벤처인증 취득 → 중진공 정책자금 확보</p>
             </div>
         </div>
     </section>
 
-    <!-- STEP 5: 컨설턴트 소개 -->
-    <section id="step5" class="py-14 bg-white">
+    <!-- STEP 5: 컨설턴트 소개 (사진 포함) -->
+    <section id="step5" class="py-16 bg-white">
         <div class="max-w-3xl mx-auto px-6">
-            <div class="flex items-center gap-3 mb-6 fade-in">
-                <span class="step-badge text-lg" style="width:44px;height:44px;">5</span>
+            <div class="flex items-center gap-3 mb-8 fade-in">
+                <span class="step-badge" style="width:48px;height:48px;font-size:17px;">5</span>
                 <div>
-                    <p class="text-orange-600 font-bold text-xs">STEP 5</p>
-                    <h2 class="text-lg md:text-xl font-bold text-gray-900">파트너CFO 김정환 이사</h2>
+                    <p class="text-orange-600 font-bold text-sm">STEP 5</p>
+                    <h2 class="text-xl md:text-2xl font-bold text-gray-900 leading-snug">파트너CFO 김정환 이사</h2>
                 </div>
             </div>
 
-            <div class="bg-gray-50 border border-gray-200 rounded-2xl p-5 md:p-7 fade-in">
-                <blockquote class="text-sm text-gray-800 leading-relaxed mb-5 text-center font-medium">
-                    "저는 세금을 신고하는 사람이 아닙니다.<br>
-                    세금을 줄이는 구조를 미리 설계하는 사람입니다.<br><br>
-                    <span class="text-orange-600">대표님이 세금 때문에 힘드신 건, 능력의 문제가 아닙니다.<br>구조의 문제이고, 저는 그 구조를 바꾸는 일을 합니다.</span>"
-                </blockquote>
+            <!-- 프로필 사진 -->
+            <div class="flex flex-col md:flex-row gap-6 mb-8 fade-in">
+                <div class="md:w-1/3 flex-shrink-0">
+                    <img src="images/profile.jpg" alt="김정환 이사 프로필" class="w-full rounded-2xl shadow-md object-cover" style="aspect-ratio: 3/4;">
+                </div>
+                <div class="md:w-2/3 flex items-center">
+                    <blockquote class="text-base md:text-lg text-gray-800 leading-[1.8] font-medium">
+                        "저는 세금을 신고하는 사람이 아닙니다.<br>
+                        세금을 줄이는 구조를 미리 설계하는 사람입니다.<br><br>
+                        <span class="text-orange-600">대표님이 세금 때문에 힘드신 건,<br>능력의 문제가 아닙니다.<br>구조의 문제이고, 저는 그 구조를 바꾸는 일을 합니다.</span>"
+                    </blockquote>
+                </div>
+            </div>
 
-                <div class="grid md:grid-cols-2 gap-5">
+            <!-- 강연 사진 -->
+            <div class="mb-8 fade-in">
+                <img src="images/lecture.jpg" alt="김정환 이사 강연" class="w-full rounded-2xl shadow-md object-cover" style="max-height: 360px;">
+            </div>
+
+            <!-- 전문 분야 + 원칙 -->
+            <div class="bg-gray-50 border border-gray-200 rounded-2xl p-6 md:p-8 fade-in">
+                <div class="grid md:grid-cols-2 gap-6">
                     <div>
-                        <p class="font-bold text-gray-900 text-xs mb-2">전문 분야</p>
-                        <ul class="text-xs text-gray-600 space-y-1.5">
+                        <p class="font-bold text-gray-900 text-base mb-3">전문 분야</p>
+                        <ul class="text-sm text-gray-600 space-y-2 leading-relaxed">
                             <li>• 법인 전환 전략 (세감면 포괄양수도, 현물출자)</li>
                             <li>• 고소득 개인사업자 절세 구조 설계</li>
                             <li>• 정책자금 조달 (벤처·이노비즈·중진공)</li>
@@ -419,8 +434,8 @@
                         </ul>
                     </div>
                     <div>
-                        <p class="font-bold text-gray-900 text-xs mb-2">컨설팅 원칙</p>
-                        <ul class="text-xs text-gray-600 space-y-1.5">
+                        <p class="font-bold text-gray-900 text-base mb-3">컨설팅 원칙</p>
+                        <ul class="text-sm text-gray-600 space-y-2 leading-relaxed">
                             <li>&#10003; 법적으로 방어 가능한 구조 우선</li>
                             <li>&#10003; 착수금 없이 먼저 진단</li>
                             <li>&#10003; 전문가 네트워크 원스톱 실행</li>
@@ -433,56 +448,56 @@
     </section>
 
     <!-- STEP 6: 적합 대상 -->
-    <section id="step6" class="py-14 bg-gray-50 border-y border-gray-100">
+    <section id="step6" class="py-16 bg-gray-50 border-y border-gray-100">
         <div class="max-w-3xl mx-auto px-6">
-            <div class="flex items-center gap-3 mb-6 fade-in">
-                <span class="step-badge text-lg" style="width:44px;height:44px;">6</span>
+            <div class="flex items-center gap-3 mb-8 fade-in">
+                <span class="step-badge" style="width:48px;height:48px;font-size:17px;">6</span>
                 <div>
-                    <p class="text-orange-600 font-bold text-xs">STEP 6</p>
-                    <h2 class="text-lg md:text-xl font-bold text-gray-900">이런 분께 가장 큰 효과가 납니다</h2>
+                    <p class="text-orange-600 font-bold text-sm">STEP 6</p>
+                    <h2 class="text-xl md:text-2xl font-bold text-gray-900 leading-snug">이런 분께 가장 큰 효과가 납니다</h2>
                 </div>
             </div>
 
-            <div class="space-y-2 mb-8 fade-in">
-                <div class="bg-white border border-gray-200 rounded-lg px-4 py-3 flex items-start gap-2 text-sm">
-                    <span class="text-orange-500 font-bold mt-0.5">&#10003;</span>
-                    <span class="text-gray-700">연 매출 3억 이상 또는 순이익 8,000만원 이상 개인사업자</span>
+            <div class="space-y-2.5 mb-10 fade-in">
+                <div class="bg-white border border-gray-200 rounded-xl px-5 py-4 flex items-start gap-3">
+                    <span class="text-orange-500 font-bold text-lg mt-0.5">&#10003;</span>
+                    <span class="text-gray-700 text-base">연 매출 3억 이상 또는 순이익 8,000만원 이상 개인사업자</span>
                 </div>
-                <div class="bg-white border border-gray-200 rounded-lg px-4 py-3 flex items-start gap-2 text-sm">
-                    <span class="text-orange-500 font-bold mt-0.5">&#10003;</span>
-                    <span class="text-gray-700">성실신고 확인 대상자 (업종별 5억~15억 이상)</span>
+                <div class="bg-white border border-gray-200 rounded-xl px-5 py-4 flex items-start gap-3">
+                    <span class="text-orange-500 font-bold text-lg mt-0.5">&#10003;</span>
+                    <span class="text-gray-700 text-base">성실신고 확인 대상자 (업종별 5억~15억 이상)</span>
                 </div>
-                <div class="bg-white border border-gray-200 rounded-lg px-4 py-3 flex items-start gap-2 text-sm">
-                    <span class="text-orange-500 font-bold mt-0.5">&#10003;</span>
-                    <span class="text-gray-700">종합소득세 세율 35% 이상 구간 (소득 1.5억+)</span>
+                <div class="bg-white border border-gray-200 rounded-xl px-5 py-4 flex items-start gap-3">
+                    <span class="text-orange-500 font-bold text-lg mt-0.5">&#10003;</span>
+                    <span class="text-gray-700 text-base">종합소득세 세율 35% 이상 구간 (소득 1.5억+)</span>
                 </div>
-                <div class="bg-white border border-gray-200 rounded-lg px-4 py-3 flex items-start gap-2 text-sm">
-                    <span class="text-orange-500 font-bold mt-0.5">&#10003;</span>
-                    <span class="text-gray-700">건강보험료가 매년 올라 부담이 되는 분</span>
+                <div class="bg-white border border-gray-200 rounded-xl px-5 py-4 flex items-start gap-3">
+                    <span class="text-orange-500 font-bold text-lg mt-0.5">&#10003;</span>
+                    <span class="text-gray-700 text-base">건강보험료가 매년 올라 부담이 되는 분</span>
                 </div>
-                <div class="bg-white border border-gray-200 rounded-lg px-4 py-3 flex items-start gap-2 text-sm">
-                    <span class="text-orange-500 font-bold mt-0.5">&#10003;</span>
-                    <span class="text-gray-700">부동산 취득을 검토 중이거나 법인 전환 시기를 고민하는 분</span>
+                <div class="bg-white border border-gray-200 rounded-xl px-5 py-4 flex items-start gap-3">
+                    <span class="text-orange-500 font-bold text-lg mt-0.5">&#10003;</span>
+                    <span class="text-gray-700 text-base">부동산 취득 검토 중이거나 법인 전환을 고민하는 분</span>
                 </div>
-                <div class="bg-white border border-gray-200 rounded-lg px-4 py-3 flex items-start gap-2 text-sm">
-                    <span class="text-orange-500 font-bold mt-0.5">&#10003;</span>
-                    <span class="text-gray-700">가족(배우자·자녀)이 사업에 관여하지만 절세 설계가 안 된 분</span>
+                <div class="bg-white border border-gray-200 rounded-xl px-5 py-4 flex items-start gap-3">
+                    <span class="text-orange-500 font-bold text-lg mt-0.5">&#10003;</span>
+                    <span class="text-gray-700 text-base">가족(배우자·자녀)이 사업에 관여하지만 절세 설계가 안 된 분</span>
                 </div>
             </div>
 
             <!-- 긴급 체크리스트 -->
-            <div class="bg-amber-50 border border-amber-200 rounded-2xl p-5 mb-6 fade-in">
-                <p class="font-bold text-gray-900 text-sm mb-3">아래 중 하나라도 해당되면, 지금 바로 진단이 필요합니다:</p>
-                <ul class="space-y-2 text-xs text-gray-700">
-                    <li class="flex items-start gap-2"><span class="text-amber-600 font-bold">!</span> 5월 세금 납부 후 사업 통장이 텅 비는 경험을 반복한다</li>
-                    <li class="flex items-start gap-2"><span class="text-amber-600 font-bold">!</span> 건강보험료가 매년 올라서 부담이 크다</li>
-                    <li class="flex items-start gap-2"><span class="text-amber-600 font-bold">!</span> 세무사에게 맡기고만 있고 세금 구조를 정확히 이해하지 못한다</li>
-                    <li class="flex items-start gap-2"><span class="text-amber-600 font-bold">!</span> 같은 매출의 법인 대표보다 세금을 훨씬 많이 내고 있다는 걸 안다</li>
+            <div class="bg-amber-50 border border-amber-200 rounded-2xl p-6 mb-6 fade-in">
+                <p class="font-bold text-gray-900 text-base mb-4">아래 중 하나라도 해당되면, 지금 바로 진단이 필요합니다:</p>
+                <ul class="space-y-2.5 text-sm text-gray-700 leading-relaxed">
+                    <li class="flex items-start gap-2"><span class="text-amber-600 font-bold text-base">!</span> 5월 세금 납부 후 사업 통장이 텅 비는 경험을 반복한다</li>
+                    <li class="flex items-start gap-2"><span class="text-amber-600 font-bold text-base">!</span> 건강보험료가 매년 올라서 부담이 크다</li>
+                    <li class="flex items-start gap-2"><span class="text-amber-600 font-bold text-base">!</span> 세무사에게 맡기고만 있고 세금 구조를 정확히 이해하지 못한다</li>
+                    <li class="flex items-start gap-2"><span class="text-amber-600 font-bold text-base">!</span> 같은 매출의 법인 대표보다 세금을 훨씬 많이 내고 있다는 걸 안다</li>
                 </ul>
             </div>
 
-            <div class="bg-gray-100 rounded-xl p-4 text-center fade-in">
-                <p class="text-xs text-gray-500">
+            <div class="bg-gray-100 rounded-xl p-5 text-center fade-in">
+                <p class="text-sm text-gray-500 leading-relaxed">
                     <strong>솔직한 안내:</strong> 연 소득 5,000만원 미만이라면 기본 절세 수단 활용만으로 충분할 수 있습니다. 효과가 없으면 솔직하게 말씀드립니다.
                 </p>
             </div>
@@ -490,24 +505,24 @@
     </section>
 
     <!-- CTA -->
-    <section id="cta-form" class="py-14 bg-white border-t border-gray-100">
+    <section id="cta-form" class="py-16 bg-white border-t border-gray-100">
         <div class="max-w-3xl mx-auto px-6 text-center">
             <div class="fade-in">
-                <h2 class="text-xl md:text-2xl font-bold text-gray-900 mb-3">
-                    지금 내 상황에서 얼마를 아낄 수 있는지<br>먼저 확인하세요.
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4 leading-[1.5]">
+                    지금 내 상황에서<br>얼마를 아낄 수 있는지 먼저 확인하세요.
                 </h2>
-                <p class="text-orange-600 font-semibold mb-2">결정은 그다음입니다.</p>
-                <div class="flex flex-wrap gap-3 justify-center text-xs text-gray-500 mb-8">
+                <p class="text-orange-600 font-semibold text-lg mb-3">결정은 그다음입니다.</p>
+                <div class="flex flex-wrap gap-4 justify-center text-sm text-gray-500 mb-10">
                     <span>&#10003; 착수금 0원</span>
                     <span>&#10003; 효과 없으면 솔직히 안내</span>
                     <span>&#10003; 1영업일 내 연락</span>
                 </div>
 
-                <a href="https://walla.my/survey/L1S3Gp5BgG0pid6xN538" target="_blank" class="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-12 py-4 rounded-full text-lg transition-all shadow-lg hover:shadow-xl mb-4">
+                <a href="https://walla.my/survey/L1S3Gp5BgG0pid6xN538" target="_blank" class="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-12 py-5 rounded-full text-xl transition-all shadow-lg hover:shadow-xl mb-5">
                     무료 재무진단 신청하기 →
                 </a>
-                <p class="text-xs text-gray-400">신청하시면 1영업일 내에 연락드립니다</p>
-                <div class="mt-4 flex flex-wrap gap-3 justify-center text-xs text-gray-400">
+                <p class="text-sm text-gray-400">신청하시면 1영업일 내에 연락드립니다</p>
+                <div class="mt-5 flex flex-wrap gap-4 justify-center text-sm text-gray-400">
                     <span>착수금 0원 · 성과 기반 보수</span>
                     <span>|</span>
                     <span>진단 후 진행 여부 자유 결정</span>
@@ -520,8 +535,8 @@
 
     <!-- Footer -->
     <footer class="bg-white border-t border-gray-200 py-8 text-center">
-        <p class="text-gray-600 text-sm font-medium">파트너CFO | 고소득 개인사업자 외부 CFO 서비스</p>
-        <p class="text-gray-400 text-xs mt-2">본 페이지의 수치는 실제 컨설팅 사례 기반 추정치이며, 개별 상황에 따라 달라질 수 있습니다.</p>
+        <p class="text-gray-600 text-base font-medium">파트너CFO | 고소득 개인사업자 외부 CFO 서비스</p>
+        <p class="text-gray-400 text-sm mt-2">본 페이지의 수치는 실제 컨설팅 사례 기반 추정치이며, 개별 상황에 따라 달라질 수 있습니다.</p>
     </footer>
 
     <script>
